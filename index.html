@@ -72,9 +72,12 @@
       font-size: 1.25rem;    /* adjust to taste */
     }
 
-    /* optional: keep avatar centered but text left */
     .avatar {
-      margin: 0 auto 12px;   /* avatar still centered */
+      width: 100px;           /* fixed size */
+      height: 100px;          /* fixed size */
+      border-radius: 50%;     /* make it a circle */
+      object-fit: cover;      /* crop to fill */
+      display: block;
     }
   </style>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
